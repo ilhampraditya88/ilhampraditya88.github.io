@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Nusantara - Solusi Digital Terpercaya</title>
+    <meta name="description" content="Digital Nusantara menyediakan layanan digital profesional dan inovatif untuk kebutuhan bisnis Anda. Web Development, Digital Marketing, SEO, dan Support.">
+    <meta name="keywords" content="digital marketing, web development, SEO, website, Surabaya, Indonesia">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <h1>Digital Nusantara</h1>
+                </div>
+                <nav class="header__nav" id="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#tentang" class="nav__link">Tentang Kami</a></li>
+                        <li class="nav__item"><a href="#layanan" class="nav__link">Layanan</a></li>
+                        <li class="nav__item"><a href="#kontak" class="nav__link">Kontak</a></li>
+                    </ul>
+                </nav>
+                <button class="header__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span class="toggle__line"></span>
+                    <span class="toggle__line"></span>
+                    <span class="toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Selamat Datang di Digital Nusantara</h1>
+                <p class="hero__subtitle">Solusi Digital Terpercaya untuk Masa Depan Anda</p>
+                <a href="#kontak" class="btn btn--primary hero__cta">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="tentang">
+        <div class="container">
+            <div class="about__content">
+                <h2 class="section__title">Tentang Kami</h2>
+                <p class="about__description">
+                    Digital Nusantara berdedikasi menyediakan layanan digital yang profesional dan inovatif 
+                    untuk memenuhi seluruh kebutuhan bisnis Anda. Dengan pengalaman dan keahlian tim yang 
+                    berpengalaman, kami berkomitmen memberikan solusi terbaik untuk mengembangkan bisnis 
+                    Anda di era digital.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="layanan">
+        <div class="container">
+            <h2 class="section__title">Layanan Kami</h2>
+            <div class="services__grid">
+                <div class="service__card card">
+                    <div class="card__body">
+                        <h3 class="service__title">Web Development</h3>
+                        <p class="service__description">
+                            Membangun website responsif dan modern untuk bisnis Anda dengan teknologi terkini 
+                            dan desain yang menarik.
+                        </p>
+                    </div>
+                </div>
+                <div class="service__card card">
+                    <div class="card__body">
+                        <h3 class="service__title">Digital Marketing</h3>
+                        <p class="service__description">
+                            Meningkatkan visibilitas brand Anda secara online melalui strategi digital yang 
+                            efektif dan terukur.
+                        </p>
+                    </div>
+                </div>
+                <div class="service__card card">
+                    <div class="card__body">
+                        <h3 class="service__title">SEO Optimization</h3>
+                        <p class="service__description">
+                            Membantu website Anda mendapatkan peringkat terbaik di mesin pencari dan 
+                            meningkatkan traffic organik.
+                        </p>
+                    </div>
+                </div>
+                <div class="service__card card">
+                    <div class="card__body">
+                        <h3 class="service__title">Support & Maintenance</h3>
+                        <p class="service__description">
+                            Layanan dukungan teknis dan pembaruan berkala untuk menjaga website Anda 
+                            selalu optimal dan aman.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="kontak">
+        <div class="container">
+            <h2 class="section__title">Kontak Kami</h2>
+            <div class="contact__content">
+                <div class="contact__form-container">
+                    <form class="contact__form" id="contact-form">
+                        <div class="form-group">
+                            <label for="nama" class="form-label">Nama</label>
+                            <input type="text" id="nama" name="nama" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea id="pesan" name="pesan" rows="5" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Kirim Pesan</button>
+                    </form>
+                    <div class="contact__success hidden" id="success-message">
+                        <div class="status status--success">
+                            Terima kasih! Pesan Anda telah berhasil dikirim.
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__info">
+                    <h3>Informasi Kontak</h3>
+                    <div class="contact__item">
+                        <strong>Email:</strong>
+                        <a href="mailto:mail@digitalnusantara.id">mail@digitalnusantara.id</a>
+                    </div>
+                    <div class="contact__item">
+                        <strong>Telepon:</strong>
+                        <a href="tel:+6231472320">+62 31 4723202</a>
+                    </div>
+                    <div class="contact__item">
+                        <strong>Alamat:</strong>
+                        <span>Jl. Panglima Sudirman No.66-68, Surabaya, Jawa Timur 60271</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">© 2025 Digital Nusantara. All rights reserved.</p>
+                <div class="footer__social">
+                    <a href="#" class="social__link" target="_blank">Facebook</a>
+                    <a href="#" class="social__link" target="_blank">Twitter</a>
+                    <a href="#" class="social__link" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
